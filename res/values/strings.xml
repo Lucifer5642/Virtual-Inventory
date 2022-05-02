@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Virtual Inventory</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="keep_me_signed_in">Keep me Signed in</string>
+    <string name="forget_password">Forget Password ?</string>
+</resources>
