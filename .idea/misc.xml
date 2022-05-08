@@ -21,6 +21,33 @@
         <entry key="..\:/Users/khara/AndroidStudioProjects/DE2/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/khara/AndroidStudioProjects/DE2/app/src/main/res/layout/activity_next_page.xml" value="0.1" />
         <entry key="..\:/Users/khara/AndroidStudioProjects/DE2/app/src/main/res/layout/sign_up.xml" value="0.1796875" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/drawable/background_splashscreen.xml" value="0.1275" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/drawable/ic.xml" value="0.183" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/drawable/ic_menu_category_background.xml" value="0.183" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/drawable/ic_menu_category_foreground.xml" value="0.183" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/drawable/ic_menu_home_background.xml" value="0.183" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/drawable/ic_menu_home_foreground.xml" value="0.183" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/drawable/ic_menu_profile_background.xml" value="0.183" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/drawable/ic_menu_profile_foreground.xml" value="0.183" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/drawable/ic_menu_setting_background.xml" value="0.183" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/drawable/ic_menu_setting_foreground.xml" value="0.183" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/drawable/side_nav_bar.xml" value="0.183" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/layout/activity_homescreen.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/layout/app_bar_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/layout/category.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/layout/content_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/layout/fragment_category.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/layout/fragment_home.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/layout/fragment_profile.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/layout/fragment_slideshow.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/layout/interest_choice.xml" value="0.1" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/layout/nav_header_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/layout/sign_up.xml" value="0.1" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/V/app/src/main/res/menu/activity_main_drawer.xml" value="0.22" />
+        <entry key="..\:/Users/khara/AndroidStudioProjects/Virtual-Inventory/app/src/main/res/layout/app_bar_main.xml" value="0.1796875" />
       </map>
     </option>
   </component>

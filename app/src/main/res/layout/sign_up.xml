@@ -1,55 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/sign_up"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/sssssconcept"
+android:onClick="signup"
+tools:context=".MainActivity"
+tools:ignore="DuplicateClickableBoundsCheck">
+
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/sssssconcept">
+    android:background="#3fff"
+    android:gravity="center"
+    android:onClick="signup"
+    android:orientation="vertical"
+    android:padding="10dp">
+
 
 
     <EditText
         android:layout_width="250dp"
         android:layout_height="40dp"
+        android:layout_marginTop="15dp"
         android:background="@drawable/custombutton"
         android:gravity="center"
         android:hint="Email"
-        android:textColorHint="#FF000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="303dp" />
+        android:textColorHint="#FF000000" />
 
     <EditText
         android:layout_width="250dp"
         android:layout_height="40dp"
+        android:layout_marginTop="15dp"
         android:background="@drawable/custombutton"
         android:gravity="center"
         android:hint="Password"
-        android:textColorHint="#FF000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="358dp" />
+        android:textColorHint="#FF000000" />
 
     <EditText
         android:layout_width="250dp"
         android:layout_height="40dp"
+        android:layout_marginTop="15dp"
         android:background="@drawable/custombutton"
         android:gravity="center"
         android:hint="Confirm Password"
-        android:textColorHint="#FF000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="415dp" />
+        android:textColorHint="#FF000000" />
+
+
+
+
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="195dp"
+        android:layout_width="250dp"
         android:layout_height="45dp"
-        android:background="@drawable/buttons"
-        android:text="Sign Up"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="479dp" />
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custombutton2"
+        android:onClick="signup"
+        android:text="Sign up"
+        android:textAllCaps="false"
+        android:textColor="#FF000000"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="15dp"
+        android:background="#3fff" />
+
+
+
+</LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

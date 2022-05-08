@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress XmlUnusedNamespaceDeclaration -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/interest_choices"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sssssconcept">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="400dp"
+        android:layout_height="110dp"
+        android:layout_gravity="top"
+        android:fontFamily="@font/segoeprb"
+        android:gravity="center"
+        android:text="choose_your_interest"
+        android:textColor="@color/black"
+        android:textSize="33sp"
+        android:visibility="visible"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/materialButtonToggleGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    <Button
+        android:id="@+id/music"
+        android:layout_width="170dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="225dp"
+        android:layout_marginBottom="395dp"
+        android:background="@drawable/custombutton"
+        android:drawableTop="@drawable/music"
+        android:text="music"
+        android:textColor="#4A148C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/dance"
+        android:layout_width="177dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="398dp"
+        android:background="@drawable/custombutton"
+        android:drawableTop="@drawable/dancing"
+        android:text="dance"
+        android:textColor="#4527A0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/music"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/art_and_craft"
+        android:layout_width="171dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="225dp"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/custombutton"
+        android:drawableTop="@drawable/paper"
+        android:text="art_craft"
+        android:textColor="#4A148C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quotes"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/animation"
+        android:layout_width="170dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="164dp"
+        android:background="@drawable/custombutton"
+        android:drawableTop="@drawable/animation"
+        android:text="animation"
+        android:textColor="#4A148C"
+        app:layout_constraintBottom_toTopOf="@+id/fab"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/quotes"
+        app:layout_constraintTop_toBottomOf="@+id/dance"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/quotes"
+        android:layout_width="170dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/custombutton"
+        android:drawableTop="@drawable/quotes"
+        android:text="quotes"
+        android:textColor="#4A148C"
+        app:layout_constraintBottom_toTopOf="@+id/art_and_craft"
+        app:layout_constraintEnd_toStartOf="@+id/animation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/music"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="@color/Piggy_Pink"
+        android:contentDescription="submit"
+        android:src="@drawable/ic_launcher_foreground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toEndOf="@+id/art_and_craft"
+        app:layout_constraintTop_toBottomOf="@+id/animation"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
