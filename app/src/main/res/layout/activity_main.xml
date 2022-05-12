@@ -7,6 +7,3 @@
     tools:context=".MainActivity"
 
     android:background="@drawable/scree"/>
-
-
-
